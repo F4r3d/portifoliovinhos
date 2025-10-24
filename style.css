@@ -88,3 +88,27 @@ body {
     text-align: right;
     padding-top: 5px;
 }
+
+@media (max-width: 600px) {
+    
+.card {
+    flex-direction: column;
+    min-width: unset;
+}
+
+.card-image-container {
+    width: 100%; 
+    height: 200px; 
+    border-right: none; 
+    border-bottom: 1px solid #eee;
+    
+    display: flex; /* Garante que o display seja Flexbox */
+    justify-content: flex-start; /* Alinhamento Horizontal: Esquerda */
+    align-items: flex-start; /* Alinhamento Vertical: Topo */
+}
+
+.card-price {
+    text-align: left;
+}
+
+}
