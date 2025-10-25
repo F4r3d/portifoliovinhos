@@ -7,11 +7,45 @@
     box-sizing: border-box;
 }
 
+:root {
+  --cor-vinho: #722F37;
+  --cor-verde: #E6FFE6;
+  --cor-azul: #48679A;
+  --cor-branco: #F5F5F5;
+  --cor-preto: #1A1A1A;
+}
+
 body {
     font-family: "Barlow", sans-serif;;
     background-color: #f4f4f9;
     margin: 20px;
 }
+
+h1 {
+    margin: 20px 20px;
+}
+
+/* TÍTULOS */
+
+.secao {
+        
+    min-height: 100vh;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.cabecalho-sticky {
+    position: sticky;
+    top: 0;
+    background-color: var(--cor-vinho);
+    color: #F5F5F5;
+    padding: 15px;
+    margin: 0;
+    z-index: 10;
+}
+
+/* FIM Títulos */
 
 .cards-container {
     display: flex;
